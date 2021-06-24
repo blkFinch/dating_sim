@@ -24,6 +24,9 @@ public class Calender : MonoBehaviour
         onNewDayCalled();
     }
 
+    public Weekday GetCurrentWeekday(){
+        return CalenderMethods.CurrentWeekday(00, date.day, date.month);
+    }
     public string CurrentDateString(){
         return (Month)date.month + " " + date.day + " " + CalenderMethods.CurrentWeekday(00, date.day, date.month);
     }

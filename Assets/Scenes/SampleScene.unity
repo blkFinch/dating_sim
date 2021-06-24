@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4febb42b8f742734bb55b3cb8b484697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventDatabase: {fileID: 0}
+  eventDatabase: {fileID: 11400000, guid: defdfd9ba8ddf3348ba382902f487444, type: 2}
   currentEvent: {fileID: 0}
 --- !u!4 &1723556036
 Transform:

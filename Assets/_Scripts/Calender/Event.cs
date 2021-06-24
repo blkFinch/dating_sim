@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEditor;
 
 [CreateAssetMenu(menuName = "Scriptable Objects/Calender Event")]
-public class Event : ScriptableObject
+public class Event : BaseScriptableObject
 {
     
     public Month month;
@@ -12,9 +12,5 @@ public class Event : ScriptableObject
     public Weekday[] weekdays;
     public bool isRecurring = false;
     public string payload = "default payload";
-
-    //TODO create tool for generating Calender Events that makes unique id
-    [SerializeField]
-    private int eventID;
     
 }

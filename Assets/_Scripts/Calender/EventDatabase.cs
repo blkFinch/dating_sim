@@ -6,11 +6,7 @@ using UnityEditor;
 [CreateAssetMenu(menuName = "Scriptable Objects/Event Database")]
 public class EventDatabase : ScriptableObject
 {
-    public EventDBEntry[] events;
-}
+    public Event[] events;
 
-[System.Serializable]
-public struct EventDBEntry{
-    public int id;
-    public Event Event;
+
 }
