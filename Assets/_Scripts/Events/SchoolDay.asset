@@ -17,4 +17,4 @@ MonoBehaviour:
   day: 0
   weekdays: 0100000002000000030000000400000005000000
   isRecurring: 1
-  payload: You have School today
+  payload: schoolday

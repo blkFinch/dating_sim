@@ -17,4 +17,4 @@ MonoBehaviour:
   day: 0
   weekdays: 06000000
   isRecurring: 1
-  payload: Happy Saturday
+  payload: saturday
